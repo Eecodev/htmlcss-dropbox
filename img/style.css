@@ -19,6 +19,18 @@
 	--color-designit-0: #f5f5f5;
 	--color-business: #62172b;
 }
+header{
+    width: 100%;
+}
 body{
     background-color: var(--color-body);
+}
+.debug{
+    background-color: var(--color-black-text-bg);
+}
+
+/* flex utility */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
 }
