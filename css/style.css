@@ -1,0 +1,36 @@
+/*  general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--color-blue-drop: #0560fb;
+	--color-black-text-bg: #000000;
+	--color-body: #ffffff;
+	--color-designit-1: #a2d39b;
+	--color-designit-2: #62172b;
+	--color-designit-3: #3994cf;
+	--color-designit-4: #e93f33;
+	--color-designit-5: #d6392e;
+	--color-designit-6: #b4d0e7;
+	--color-designit-7: #0d2481;
+	--color-designit-8: #fcd733;
+	--color-designit-0: #f5f5f5;
+	--color-business: #62172b;
+}
+header{
+    width: 100%;
+}
+body{
+    background-color: var(--color-body);
+}
+.debug{
+    background-color: var(--color-black-text-bg);
+}
+
+/* flex utility */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
