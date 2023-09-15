@@ -21,14 +21,19 @@
 }
 header{
     width: 100%;
+	padding: 10px;
 }
 body{
-    background-color: var(--color-body);
+    color: var(--color-body)
 }
 .debug{
-    background-color: var(--color-black-text-bg);
+    border: 1px solid black;
 }
-
+a{
+	padding: 10px;
+	color: var(--color-black-text-bg);
+	text-decoration: none;
+}
 /* flex utility */
 .d-flex{
     display: flex;
