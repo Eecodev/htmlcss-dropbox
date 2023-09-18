@@ -38,6 +38,22 @@ a{
 	text-decoration: none;
 	display: block;
 }
+/* flex utility */
+.d-flex{
+    display: flex;
+	flex-direction: row;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.align-center{
+	align-items: center;
+	align-content: center;
+}
+.align-start{
+	align-items: flex-start;
+	align-content: flex-start;
+}
 /* header */
 header{
     width: 100%;
@@ -99,22 +115,7 @@ h2{
 button, span{
 	display: block;
 }
-/* flex utility */
-.d-flex{
-    display: flex;
-	flex-direction: row;
-}
-.justify-between{
-	justify-content: space-between;
-}
-.align-center{
-	align-items: center;
-	align-content: center;
-}
-.align-start{
-	align-items: flex-start;
-	align-content: flex-start;
-}
+
 /* main */
 main{
 	padding-top: 70px;
