@@ -66,7 +66,6 @@ header{
 	background-color: var(--color-body);
 	height: 70px;
 	box-shadow: 1px 5px 5px grey;
-	
 }
 header nav{
 	height: 100%;
@@ -81,45 +80,49 @@ li{
 .logo{
 	padding-right: 5px;
 }
+
+/* main */
+h1{
+	font-size: 4.5em;
+}
+h2{
+	font-size: 2em;
+}
+img{
+	width: 100%;
+	display: block;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+#hero{
+	background-color: var(--color-designit-6);
+	margin-bottom: 100px;
+}
+#hero .container{
+	padding-top: 50px;
+	position: relative;
+	bottom: -70px;
+}
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
 	padding-top: 5px;
 }
 .hero-right{
-	width: 50%;
+	width: 65%;
 	position: relative;
 }
-.hero-img{
-	width: 100%;
-	height: 140%;
-	position: absolute;
-	/* top: 20; */
-	object-fit: contain;
-	top:0;
-	left:0;
-}
 .hero-left{
-	width: 50%;
+	width: 35%;
 	padding: 10px;
 }
+
 .container-small{
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 10px;
 }
-h1{
-	text-align: left;
-	font-size: 80px;
-}
-h2{
-	text-align: left;
-}
-button, span{
-	display: block;
-}
-
-/* main */
-main{
-	padding-top: 70px;
-} 
