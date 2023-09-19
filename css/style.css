@@ -25,7 +25,7 @@ body{
     color: var(--color-black-text-bg);
 }
 .debug{
-    border: 1px solid black;
+    border: 1px solid red;
 }
 /* buttons */
 .btn{
@@ -141,5 +141,18 @@ img{
 }
 .plan-body{
 	border-top: 1px solid #666;
-	padding: 10px;
+	padding: 15px;
+}
+
+
+/* Footer */
+footer{
+	background-color: var(--color-black-text-bg);
+	color: var(--color-body);
+}
+footer h3{
+	font-size: 1rem;
+}
+footer li{
+	font-size: 0.2;
 }
