@@ -136,3 +136,9 @@ img{
 	width: 30%;
 	border: 1px solid #666;
 }
+.plan-header{
+	text-align: center;
+}
+.plan-body{
+	border-top: 1px solid black;
+}
