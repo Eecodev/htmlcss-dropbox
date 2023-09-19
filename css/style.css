@@ -46,6 +46,9 @@ a{
 .justify-between{
 	justify-content: space-between;
 }
+.justify-center{
+	justify-content: center;
+}
 .align-center{
 	align-content: center;
 	align-items: center;
@@ -178,8 +181,15 @@ img{
 	height: calc(100vw / 3);
 }
 .brand-box{
+	display: flex;
 	width: 50%;
 	height: 50%;
+}
+.brand{
+	width: 100px;
+}
+.brand-center{
+	width: 160px;
 }
 /* Footer */
 footer{
