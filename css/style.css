@@ -146,6 +146,9 @@ img{
 	padding: 15px;
 }
 /* section partner */
+#partner.container-small{
+	margin-top: 100px;
+}
 .partner-img{
 	width: 60%;
 }
@@ -154,8 +157,18 @@ img{
 	padding-left: 40px;
 }
 /* section operation */
-
-
+#operation.container-small{
+	margin-top: 100px;
+}
+.operation{
+	width: 30%;
+	border: 1px solid #666;
+	margin-bottom: 10px;
+}
+/* section team */
+#team{
+	margin-top: 100px;
+}
 
 /* Footer */
 footer{
@@ -167,4 +180,5 @@ footer h3{
 }
 footer li{
 	font-size: 0.7rem;
+	padding: 5px 0;
 }
