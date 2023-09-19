@@ -193,7 +193,7 @@ img{
 }
 /* prova */
 #prova{
-	margin-top: 100px;
+	background-color: var(--color-designit-6);
 }
 hr{
 	width: 100px;
