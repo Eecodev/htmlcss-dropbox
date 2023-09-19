@@ -85,6 +85,8 @@ li{
 }
 
 /* main */
+
+/* section plan */
 h1{
 	font-size: 4.5em;
 }
@@ -143,6 +145,16 @@ img{
 	border-top: 1px solid #666;
 	padding: 15px;
 }
+/* section partner */
+.partner-img{
+	width: 60%;
+}
+.partner-text{
+	width: 40%;
+	padding-left: 40px;
+}
+
+
 
 
 /* Footer */
