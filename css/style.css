@@ -140,5 +140,6 @@ img{
 	text-align: center;
 }
 .plan-body{
-	border-top: 1px solid black;
+	border-top: 1px solid #666;
+	padding: 10px;
 }
