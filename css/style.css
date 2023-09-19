@@ -55,6 +55,9 @@ a{
 	align-items: flex-start;
 	align-content: flex-start;
 }
+.wrap{
+	flex-wrap: wrap;
+}
 /* header */
 header{
     position: fixed;
@@ -130,5 +133,6 @@ img{
 	margin-top: 100px;
 }
 .plan{
-
+	width: 30%;
+	border: 1px solid #666;
 }
