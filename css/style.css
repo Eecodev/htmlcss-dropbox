@@ -191,6 +191,14 @@ img{
 .brand-center{
 	width: 160px;
 }
+/* prova */
+#prova{
+	margin-top: 100px;
+}
+hr{
+	width: 100px;
+	margin: auto;
+}
 /* Footer */
 footer{
 	background-color: var(--color-black-text-bg);
